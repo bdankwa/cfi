@@ -1,0 +1,2 @@
+No dead-code/deactivated code allowed, statement coverage required therefore we can get precise CFG.
+

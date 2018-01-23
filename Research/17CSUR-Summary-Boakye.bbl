@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+
+\bibitem{DBLP:journals/corr/BurowCBPNLF16}
+Nathan Burow, Scott~A. Carr, Stefan Brunthaler, Mathias Payer, Joseph Nash, Per
+  Larsen, and Michael Franz.
+\newblock Control-flow integrity: Precision, security, and performance.
+\newblock {\em CoRR}, abs/1602.04056, 2016.
+
+\end{thebibliography}
