@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.7)  23 JAN 2018 22:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.7)  24 JAN 2018 19:56
 entering extended mode
 **17CSUR-Summary-Boakye.tex
 (E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.tex
@@ -161,29 +161,35 @@ LaTeX Font Info:    ... okay on input line 26.
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks22
 )
-Underfull \hbox (badness 10000) in paragraph at lines 44--48
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
  []
 
-(E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.bbl) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (E:\sandbox\cfi\Research\
-17CSUR-Summary-Boakye.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
+
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.bbl) [2]
+(E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.aux) ) 
 Here is how much of TeX's memory you used:
  1837 strings out of 493921
  22460 string characters out of 3152490
- 77221 words of memory out of 3000000
+ 81221 words of memory out of 3000000
  5152 multiletter control sequences out of 15000+200000
  6554 words of font info for 24 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,21p,869b,175s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Apps/MikTex/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><C:/Apps/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Apps/MikTex
-/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Apps/MikTex/fonts/type1/public/am
-sfonts/cm/cmti12.pfb>
-Output written on 17CSUR-Summary-Boakye.pdf (1 page, 51360 bytes).
+ 27i,6n,21p,1586b,175s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Apps/MikTex/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Apps/MikTex/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Apps/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Apps/Mik
+Tex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 17CSUR-Summary-Boakye.pdf (2 pages, 58006 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
