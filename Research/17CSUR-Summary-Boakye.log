@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.7)  26 JAN 2018 21:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.7)  27 JAN 2018 22:22
 entering extended mode
 **17CSUR-Summary-Boakye.tex
 (E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.tex
@@ -173,7 +173,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--51
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.bbl) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
+
+ []
+
+[2] (E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.bbl) [3]
 (E:\sandbox\cfi\Research\17CSUR-Summary-Boakye.aux) ) 
 Here is how much of TeX's memory you used:
  1856 strings out of 493921
@@ -189,9 +193,9 @@ cmmi12.pfb><C:/Apps/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Apps/Mi
 kTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Apps/MikTex/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><C:/Apps/MikTex/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on 17CSUR-Summary-Boakye.pdf (2 pages, 79777 bytes).
+Output written on 17CSUR-Summary-Boakye.pdf (3 pages, 82335 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

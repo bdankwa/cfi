@@ -54,9 +54,12 @@ QuantitativeSecurity &=& EC * \frac{1}{LC}
 \label{sec}
 \end{eqnarray}
 \nolinebreak
-They argued that an implementation with a large number of small equivalent classes is more secure than an implementation with a small number of large equivalent classes. Hence, Equation \ref{sec} provides a more meaningful measure than Average Indirect Target Reduction (AIR) which gives the average reduction of allowed targets. Against this novel quantitative matric, they eval
+They argued that an implementation with a large number of small equivalent classes is more secure than an implementation with a small number of large equivalent classes. Hence, Equation \ref{sec} provides a more meaningful measure than Average Indirect Target Reduction (AIR) which gives the average reduction of allowed targets. Against this novel quantitative matric, they eval TODO - Quantitative analysis.
 \newline
 \newline
+The authors studied the performance of various publicly available CFI implementations. They replicated the performance methodology described in the various publications but used the same hardware platform, operating system and the SPEC CUP2006 benchmark for an objective comparison. They observed that benchmarks that make large number of indirect calls or generates large numbers of equivalent classes incur large performance overhead. They explained this as the security precision/performance trade-off that CFI designers must make. They reported that the results of their performance study suggests that both precision and performance of CFI mechanisms have improved over the years. For example, compiler based CFI mechanisms have overhead within the $5\%$ threshold for widespread adoption. Their results showed that LLCM-CFI 3.7 and VTI had the least measured performance overhead, followed by CFGuard, $\pi$CFI and VTV. They also reviewed reported performances of a number of compiler based and binary-level CFI mechanisms and observed that both methods incur similar performance overhead. However, CFI strategies that employ a more complete binary-level mechanisms such as using a shadow stack, increases performance overhead. Lockdown was given as an example of such mechanisms. They suggested researchers utilize all the benchmarks in SPEC CPU2006 when conducting CFI performance analysis to get a more complete picture. They also suggested more frequently targeted applications be made part of the SPEC CPU2006 benchmark.  
+
+
 
 
 
