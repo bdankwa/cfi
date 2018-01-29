@@ -40,7 +40,7 @@
 
 % This command causes the title to be created in the document
 
-%\section{Abstract}
+\section{Summary}
 Control-Flow Integrity (CFI) shows promise to defeat control flow modification attacks such as remote code injection, Return-Oriented Programing (ROP) and code-reuse, that expoit memory corruption vulnerabilities in C/C++ programs. The technique has been researched and improved upon by researchers and has been integrated into products such as LLVM and some Microsoft products. Current CFI evaluations usually use the SPEC2006 benchmark and Average Indirect-target Reduction (AIR) to measure performance and security precision respectively. Control-Flow Integrity: Security Precision and Performance \cite{DBLP:journals/corr/BurowCBPNLF16} systematize various CFI implementations and their trade-offs, and propose a novel way of evaluating these implementations against security precision and performance.
 \newline
 \newline
@@ -58,6 +58,12 @@ They argued that an implementation with a large number of small equivalent class
 \newline
 \newline
 The authors studied the performance of various publicly available CFI implementations. They replicated the performance methodology described in the various publications but used the same hardware platform, operating system and the SPEC CUP2006 benchmark for an objective comparison. They observed that benchmarks that make large number of indirect calls or generates large numbers of equivalent classes incur large performance overhead. They explained this as the security precision/performance trade-off that CFI designers must make. They reported that the results of their performance study suggests that both precision and performance of CFI mechanisms have improved over the years. For example, compiler based CFI mechanisms have overhead within the $5\%$ threshold for widespread adoption. Their results showed that LLCM-CFI 3.7 and VTI had the least measured performance overhead, followed by CFGuard, $\pi$CFI and VTV. They also reviewed reported performances of a number of compiler based and binary-level CFI mechanisms and observed that both methods incur similar performance overhead. However, CFI strategies that employ a more complete binary-level mechanisms such as using a shadow stack, increases performance overhead. Lockdown was given as an example of such mechanisms. They suggested researchers utilize all the benchmarks in SPEC CPU2006 when conducting CFI performance analysis to get a more complete picture. They also suggested more frequently targeted applications be made part of the SPEC CPU2006 benchmark.  
+\newline
+\newline
+Finally, they discussed trends in CFI enforcement mechanisms, open challenges facing the CFI research community and the direction of future research. According to paper, CFI enforcement mechanisms have evolved from Program Shepharding type enforcement where mechanisms only check integrity of a subset of indirect branches, through label-based schemes to hardware-supported enforcements. They described successful hardware-based CFI mechanisms in the research and production environment. Some of the examples include LBR inspection, HMAC authentication of pointers and special Intel processor instructions. These hardware solutions usually protect backward control-flow transfers with fully isolated shadow stacks which shows improved performance overhead compared to software based shadow stack. The authors listed imprecision in the construction of CFGs as a major weakness in CFI mechanisms. They recommended the use of flow-sensitive and context-sensitive analysis for forward edges, and shadow stacks for backwards edges. They also recommended coding practices that would result in large number of equivalent classes as improvements that could be adopted by the CFI community.     For the future CFI work, the authors identified protecting operating system kernels, JIT compiled code and method dispatch in object-oriented languages as challenging areas for CFI research.
+
+\section{Application to Safety Critical Software}
+
 
 
 
