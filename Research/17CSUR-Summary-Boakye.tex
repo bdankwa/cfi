@@ -40,7 +40,7 @@
 
 % This command causes the title to be created in the document
 
-\section{Summary}
+%\section{Summary}
 Control-Flow Integrity (CFI) shows promise to defeat control flow modification attacks such as remote code injection, Return-Oriented Programing (ROP) and code-reuse, that expoit memory corruption vulnerabilities in C/C++ programs. The technique has been researched and improved upon by researchers and has been integrated into products such as LLVM and some Microsoft products. Current CFI evaluations usually use the SPEC2006 benchmark and Average Indirect-target Reduction (AIR) to measure performance and security precision respectively. Control-Flow Integrity: Security Precision and Performance \cite{DBLP:journals/corr/BurowCBPNLF16} systematize various CFI implementations and their trade-offs, and propose a novel way of evaluating these implementations against security precision and performance.
 \newline
 \newline
@@ -61,9 +61,6 @@ The authors studied the performance of various publicly available CFI implementa
 \newline
 \newline
 Finally, they discussed trends in CFI enforcement mechanisms, open challenges facing the CFI research community and the direction of future research. According to paper, CFI enforcement mechanisms have evolved from Program Shepharding type enforcement where mechanisms only check integrity of a subset of indirect branches, through label-based schemes to hardware-supported enforcements. They described successful hardware-based CFI mechanisms in the research and production environment. Some of the examples include LBR inspection, HMAC authentication of pointers and special Intel processor instructions. These hardware solutions usually protect backward control-flow transfers with fully isolated shadow stacks which shows improved performance overhead compared to software based shadow stack. The authors listed imprecision in the construction of CFGs as a major weakness in CFI mechanisms. They recommended the use of flow-sensitive and context-sensitive analysis for forward edges, and shadow stacks for backwards edges. They also recommended coding practices that would result in large number of equivalent classes as improvements that could be adopted by the CFI community.     For the future CFI work, the authors identified protecting operating system kernels, JIT compiled code and method dispatch in object-oriented languages as challenging areas for CFI research.
-
-\section{Application to Safety Critical Software}
-The attack model we're looking at is an attacker having read and write capabilities to the program's data regions in memory looking to leverage buffer overflow to read/write data or inject code into the program's address space or employ code re-use for malicious intent.
 
 
 

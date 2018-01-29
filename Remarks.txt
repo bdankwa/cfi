@@ -1,2 +1,13 @@
-No dead-code/deactivated code allowed, statement coverage required therefore we can get precise CFG.
+Attack Model:
+An adversary with read/write access to program's data regions looking to leverage memory corruption vulnerabilities
+to read/write data or inject code or employ code re-use for malicious intent.
 
+Our Systems:
+Operating System and Application Software written in C
+DSPs, MCUs, etc
+
+Solution:
+Employ Memory Safety (Optimzed performance for embedded systems)
+Code-Pointer Integrity/CFI and Data Confidentiality (to prevent data exfiltration and control-flow hijacking)
+
+Maintain architectural constraints - Throughput, Integrability & Certifiability
